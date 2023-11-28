@@ -1,0 +1,94 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:4px solid red;
+  width:100vw;
+  height:100vh;
+
+}
+.container{
+  
+  display:flex;
+  /* align-items:center;
+  justify-content: center; */
+  /* margin-top: 250px; */
+  padding:20px 70px;
+  width:60%;
+  border:4px solid blue;
+  height:50%;
+
+
+ 
+}
+.containerp{
+  flex:1;
+  width:500px;
+  height:100%;
+  border:4px solid rgb(83, 128, 0);
+  
+}
+.sedan-main, .luxury-main, .suvs-main{
+  padding:70px;
+
+}
+.sedan-main{
+  background-color:orange;
+}
+.suvs-main{
+  background-color:rgb(45, 128, 131);
+}
+.luxury-main{
+  background-color:rgb(10, 66, 84);
+}
+.title{
+  color:White;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content{
+  color:white;
+  font-size:12px;
+  letter-spacing: normal;
+  margin-top:40px;
+
+}
+
+.button{
+  margin-top:90px;
+  width:190px;
+  background-color: white;
+  padding:15px;
+  font-size:10px;
+  text-align: center;
+  border-radius: 30px;
+
+}
+.btn1{
+  color:orange;
+}
+.btn2{
+  color:rgb(45, 128, 131);
+}
+.btn3{
+  color:rgb(10, 66, 84)
+}
